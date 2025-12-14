@@ -58,7 +58,7 @@ function App() {
               ),
             }}
           />
-           <Tab.Screen
+          <Tab.Screen
             name="History"
             component={History}
             options={{
