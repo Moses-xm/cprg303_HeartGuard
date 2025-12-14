@@ -12,8 +12,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Provider as PaperProvider } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Home from './screens/home/index.js';
-import Settings from './screens/settings/index.js';
-import History from './screens/history/index.js';
+// import Settings from './screens/settings/index.js';
+// import History from './screens/history/index.js';
 
 const Tab = createBottomTabNavigator();
 
@@ -58,7 +58,7 @@ function App() {
               ),
             }}
           />
-          <Tab.Screen
+          {/* <Tab.Screen
             name="History"
             component={History}
             options={{
@@ -79,7 +79,7 @@ function App() {
                 <Icon name="cog" size={size} color={color} />
               ),
             }}
-          />
+          /> */}
         </Tab.Navigator>
       </NavigationContainer>
     </PaperProvider>
