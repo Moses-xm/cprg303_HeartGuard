@@ -79,7 +79,7 @@ function App() {
                 <Icon name="cog" size={size} color={color} />
               ),
             }}
-          />{' '}
+          />
         </Tab.Navigator>
       </NavigationContainer>
     </PaperProvider>
